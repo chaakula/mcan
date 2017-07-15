@@ -1,3 +1,2 @@
 # mcan
-mcan build process
-  mvn clean install
+mcan build --> mvn clean install
