@@ -5,6 +5,7 @@ import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.NamedQuery;
+import javax.persistence.Table;
 
 
 /**
@@ -16,13 +17,14 @@ import javax.persistence.NamedQuery;
 public class Login implements Serializable {
 	private static final long serialVersionUID = 1L;
 
-	@Id
+	
 	private int age;
 
 	private String password;
 
 	private String role;
 
+	@Id
 	private String username;
 
 	public Login() {
